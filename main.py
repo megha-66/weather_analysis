@@ -89,7 +89,7 @@ elif option == "STATISTICAL DATA ANALYSIS":
     
     
    st.markdown("### STATISTICAL DATA ANALYSIS")
-   df=pd.read_csv(r"C:\Users\prach\Downloads\Weather Data.csv")
+   df=pd.read_csv(r"C:\Users\prach\Downloads\weather_analysis-main\weather_analysis-main\WeatherData.csv")
    k=df[df.Weather == 'Clear']
    st.write("FINDING THE NUMBER OF TIMES, WHEN THE WEATHER IS EXACTLY CLEAR",k)
    a = df[df["Wind Speed_km/h"]==4]
