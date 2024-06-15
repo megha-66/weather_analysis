@@ -23,7 +23,7 @@ add_bg_from_url()
 
 
 # Load weather data
-weather_data = pd.read_csv("C:/Users/prach/Downloads/Weather Data.csv")
+weather_data = pd.read_csv(""C:\Users\prach\Downloads\weather_analysis-main\weather_analysis-main\WeatherData.csv"")
 
 
 
